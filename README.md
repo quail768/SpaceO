@@ -37,6 +37,13 @@ Here, both the reference `morphology.ome.tif` image and the registered `Phenocyc
 The other directory will be named after the '--Phenocycler_Directory_Home' (Ex: ./P134_BL/CODEX.ome.tif -> ./Results/P134_BL) and will contain the outputs from the Valis Micro_Rigid_Registration module. You can monitor how well the registration is proceeding with the help of this directory in ./Results/P134_BL/overlaps
 
 **2) Quantification**
+* `CountMatrixwithLabels.csv` - Count Matrix from McQuant with appended Xenium cell ids. Use the cell ids to append  this data to the Xenium data in R/Python.
+* `masks.geojson` - Geojson file containing masks that can be imported into QuPath with the registered Phenocycler image to validate registration.
+* `out_of_bounds_cells.txt` - Cells with masks in the Xenium data that have been rasterized outside the limits of the Phenocycler image. This should be not more than 20-30 if your registraton has worked well.
+* `ImageMasks.tif` - Masks drawn from geojson object for perfroming quantification. Can be imported with geojson object into QuPath to validate the success of the drawing.
+* `CODEX_ImageMasks.csv` - Output from Mcquant
+* `label_lookup.csv`- Dictionary for masks and corresponding Xenium label. Not critical for analysis since the workfflow assembles the count matrix.
+
 
 
 
