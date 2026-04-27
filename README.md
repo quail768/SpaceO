@@ -12,10 +12,10 @@ A start to end approach for the registration and quantification of paired Xenium
 6) Install [Mcquant](https://github.com/quail768/quantification/tree/master) 
 
 
-# Usage
+## Usage
 This tool can be used simply by running the SpaceO.py script 
 
-# Run script
+## Run script
 `python SpaceO.py --Xenium_Image ./outs/morphology.ome.tif --Phenocycler_Directory_Home ./PhenocylerImage/CODEX.ome.tif --Zarr ./outs/cells_zarr  --Channels ./my_channels.csv`
 
 **SpaceO** options:
