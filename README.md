@@ -18,7 +18,7 @@ This tool can be used simply by running the SpaceO.py script
 # Run script
 `python SpaceO.py --Xenium_Image ./outs/morphology.ome.tif --Phenocycler_Directory_Home ./PhenocylerImage/CODEX.ome.tif --Zarr ./outs/cells_zarr  --Channels ./my_channels.csv`
 
-**mcquant** options:
+**SpaceO** options:
 
 * `--Xenium_Image` Path to morphology.ome.tif from Xenium ranger output (Ex: ./outs/morphology.ome.tif) 
 
