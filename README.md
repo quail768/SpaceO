@@ -12,7 +12,7 @@ A start to end approach for the registration and quantification of paired Xenium
 6) Install [Mcquant](https://github.com/quail768/quantification/tree/master) 
 
 
-## Usage
+# Usage
 This tool can be used simply by running the SpaceO.py script 
 
 # Run script
