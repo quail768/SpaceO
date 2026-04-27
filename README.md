@@ -10,3 +10,7 @@ A start to end approach for the registration and quantification of paired Xenium
 4) `conda env create -f environment.yml`.
 5) Activate your conda environment
 6) Install [Mcquant](https://github.com/quail768/quantification/tree/master) 
+
+
+## Usage
+This tool can be used simply by running the SpaceO.py script 
