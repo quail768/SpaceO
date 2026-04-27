@@ -27,3 +27,14 @@ This tool can be used simply by running the SpaceO.py script
 * `--Zarr` Path to a directory containing the unzipped cells.zarr file from the Xenium ranger output. (Ex: ./outs/cells_zarr)
 
 * `--Channels` Path to a .csv file with each row having the name of a single marker that was imaged (Ex: ./my_channels.csv)
+
+
+## Outputs
+SpaceO has a number of different outputs that help to understand your data. There will be 2 directories created within the directory where the script is run.
+
+**1) Results**
+Here, both the reference `morphology.ome.tif` image and the registered `Phenocycler.ome.tif` image from the registration procedure with Valis are stored in Registerd_slides.
+The other directory will be named after the '--Phenocycler_Directory_Home' (Ex: ./P134_BL/CODEX.ome.tif -> ./Results/P134_BL) and will contain the outputs from the Valis Micro_Rigid_Registration module. You can monitor how well the registration is proceeding with the help of this directory in
+
+
+
