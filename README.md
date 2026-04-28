@@ -16,7 +16,7 @@ A start to end approach for the registration and quantification of paired Xenium
 This tool can be used simply by running the SpaceO.py script 
 
 ## Run script
-`python SpaceO.py --Xenium_Image ./outs/morphology.ome.tif --Phenocycler_Directory_Home ./PhenocylerImage/CODEX.ome.tif --Zarr ./outs/cells_zarr  --Channels ./my_channels.csv`
+`python SpaceO.py --Xenium_Image ./outs/morphology.ome.tif --Phenocycler_Directory_Home ./PhenocylerImage/CODEX.ome.tif --Zarr ./outs/cells_zarr  --Channels ./my_channels.csv   --Spatial_Proteomics_Magnification 20`
 
 **SpaceO** options:
 
