@@ -28,6 +28,8 @@ This tool can be used simply by running the SpaceO.py script
 
 * `--Channels` Path to a .csv file with each row having the name of a single marker that was imaged (Ex: ./my_channels.csv)
 
+* `--Spatial_Proteomics_Magnification` The magnification used for imaging spatial proteomics data (Ex: 20)
+
 
 ## Outputs
 SpaceO has a number of different outputs that help to understand your data. There will be 2 directories created within the directory where the script is run.
