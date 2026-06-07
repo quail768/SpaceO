@@ -22,7 +22,7 @@ This tool can be used simply by running the SpaceO.py script
 
 * `--Xenium_Image` Path to morphology.ome.tif from Xenium ranger output (Ex: ./outs/morphology.ome.tif) 
 
-* `--Phenocycler_Directory_Home` Path to a directory containing a single Phenocycler image.  (Ex: ./PhenocylerImage/CODEX.ome.tif)
+* `--Phenocycler_Directory_Home` Path to a directory containing a single Phenocycler image.  (Ex: ./PhenocylerImage/CODEX.ome.tif). The pipeline will crash if this directory contains any other files.
 
 * `--Zarr` Path to a directory containing the unzipped cells.zarr file from the Xenium ranger output. (Ex: ./outs/cells_zarr). You can create this directory with `unzip  ./outs/cells.zarr.zip -d ./outs/cells_zarr`
 
