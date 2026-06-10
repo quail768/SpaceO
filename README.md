@@ -1,6 +1,6 @@
 # SpaceO
 
-This repository contains the code for . 
+This repository contains the code for SpaceO. 
 A start to end approach for the registration and quantification of paired Xenium and Spatial proteomics data.
 
 ## Installation
