@@ -39,7 +39,9 @@ SpaceO has a number of different outputs that help to understand your data. Ther
 Here, both the reference `morphology.ome.tif` image and the registered `Phenocycler.ome.tif` image from the registration procedure with Valis are stored in Registerd_slides.
 The other directory will be named after the '--Phenocycler_Directory_Home' (Ex: ./P134_BL/CODEX.ome.tif -> ./Results/P134_BL) and will contain the outputs from the Valis Micro_Rigid_Registration module. You can monitor how well the registration is proceeding with the help of this directory in ./Results/P134_BL/overlaps
 
-<img width="549" height="365" alt="image" src="https://github.com/user-attachments/assets/098b7a8a-3d73-471e-bf6e-a81d954a153e" /> <img width="582" height="390" alt="image" src="https://github.com/user-attachments/assets/7cee7c7c-6ec3-4203-aa4b-0b995647cd76" />
+<img width="4905" height="1435" alt="SpaceO_registration_comparison" src="https://github.com/user-attachments/assets/9c7acb82-552d-416e-b8e8-73b63daa257e" />
+
+
 
 
 **2) Quantification**
