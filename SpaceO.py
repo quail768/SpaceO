@@ -146,7 +146,7 @@ def load_registered_tiff(
 # Use the zarr file to generate masks and converting to geojson
 # =========================
  
-#Code from https://github.com/gabrielascui/xenium_to_qupath/tree/main was modified to create this functions 
+#Code from https://github.com/gabrielascui/xenium_to_qupath/tree/main was modified to create this function 
 
 def xenium_cells_to_geojson(zarr_dir, pixel_size, downsample_factor):
     # Adjusted scaling factor for coordinate conversion
